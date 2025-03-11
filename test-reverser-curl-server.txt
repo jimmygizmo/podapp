@@ -1,0 +1,28 @@
+
+
+curl -X POST http://localhost:8000/run \
+     -H "Content-Type: application/json" \
+     -d '{"input": {"text": "Hello, RunPod!"}}'
+
+
+# Appears to work:
+# curl -X POST http://localhost:8000/run \
+#     -H "Content-Type: application/json" \
+#     -d '{"input": {"text": "Hello, RunPod!"}}'
+# {"id":"test-d84229ee-40f5-4f3d-9529-c3caad118488","status":"IN_PROGRESS"}
+
+
+
+# When server shutting down:
+# ^CINFO:     Shutting down
+# INFO:     Waiting for application shutdown.
+# INFO:     Application shutdown complete.
+# INFO:     Finished server process [79799]
+# INFO   | SIGINT received. Shutting down.
+
+
+##
+#
+
+# https://docs.runpod.io/tutorials/sdks/python/101/local-server-testing
+

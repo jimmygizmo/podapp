@@ -1,0 +1,8 @@
+
+START SERVER:
+python reverser.py --rp_serve_api
+
+
+# This command starts a FastAPI server on your local machine, accessible at http://localhost:8000
+
+http://localhost:8000

@@ -1,0 +1,16 @@
+
+python is_even.py --test_input '{"input": {"number": 2}}'
+
+
+>python is_even.py --test_input '{"input": {"number": 2}}'
+
+--- Starting Serverless Worker |  Version 1.7.7 ---
+INFO   | test_input set, using test_input as job input.
+DEBUG  | Retrieved local job: {'input': {'number': 2}, 'id': 'local_test'}
+INFO   | local_test | Started.
+DEBUG  | local_test | Handler output: True
+DEBUG  | local_test | run_job return: {'output': True}
+INFO   | Job local_test completed successfully.
+INFO   | Job result: {'output': True}
+INFO   | Local testing complete, exiting.
+
