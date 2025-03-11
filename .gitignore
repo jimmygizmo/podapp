@@ -2,6 +2,17 @@
 .idea/
 
 
+nogit/*
+!nogit/.gitkeep
+
+#nogit/some-subdir/*
+#!nogit/some-subdir/.gitkeep
+
+#nogit/some-subdir/some-sub-subdir/*
+#!nogit/some-subdir//some-sub-subdir/.gitkeep
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
