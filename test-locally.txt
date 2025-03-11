@@ -1,0 +1,18 @@
+
+
+
+
+>python hello_world.py --rp_server_api
+
+--- Starting Serverless Worker |  Version 1.7.7 ---
+INFO   | Using test_input.json as job input.
+DEBUG  | Retrieved local job: {'input': {'name': 'World'}, 'id': 'local_test'}
+INFO   | local_test | Started.
+DEBUG  | local_test | Handler output: Hello World!
+DEBUG  | local_test | run_job return: {'output': 'Hello World!'}
+INFO   | Job local_test completed successfully.
+INFO   | Job result: {'output': 'Hello World!'}
+INFO   | Local testing complete, exiting.
+
+
+

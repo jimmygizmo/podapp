@@ -1,0 +1,33 @@
+
+
+RUNPOD PYTHON SDK INTRODUCTION
+https://docs.runpod.io/tutorials/sdks/python/get-started/introduction
+
+REPO FOR THE RUNPOD PYTHON SDK
+https://github.com/runpod/runpod-python
+
+PREREQUISITES
+https://docs.runpod.io/tutorials/sdks/python/get-started/prerequisites
+
+VE NAME I WILL USE:
+ve.podapp
+
+PYTHON VERSION:
+SDK specifies => 3.8 so I will go for on major version under the latest in Pyenv.
+This is because sometimes PyTorch/CUDA drivers often lag behind the latest Python.
+
+LATEST:  3.12.4    SO I WILL USE: 3.11.9
+
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install --upgrade wheel
+
+pip install runpod
+
+NOTE: I included the pip freeze for this. It's a lot of stuff.
+
+VALIDATE:
+python -c "import runpod; print(runpod.__version__)"
+1.7.7
+
+
